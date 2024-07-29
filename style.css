@@ -241,3 +241,116 @@ header nav ul li div{
     line-height: 130%;
     letter-spacing: 1.02px;
 }
+.help{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 80px 40px 100px 40px;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    gap: 60px;
+}
+.help h3{
+    width: 308px;
+    color: #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.help .list{
+    width: 1026px;
+    height: 281px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 120px;
+    grid-template-areas:
+    'pet-food transportation toys bowls-and-cups bowls-and-cups shampoos'
+    'vitamins medicines collars-leashes collars-leashes sleeping-area sleeping-area'
+;
+}
+.help .list .pet-food{
+    grid-area: pet-food;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.help .list .transportation{
+    grid-area: transportation;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.help .list .toys{
+    grid-area: toys;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.help .list .bowls-and-cups{
+    grid-area: bowls-and-cups;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.help .list .shampoos{
+    grid-area: shampoos;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.help .list .vitamins{
+    grid-area: vitamins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.help .list .medicines{
+    grid-area: medicines;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.help .list .collars-leashes{
+    grid-area: collars-leashes;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.help .list .sleeping-area{
+    grid-area: sleeping-area;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.help .list h4{
+    color: #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
