@@ -5,7 +5,6 @@
 }
 body{
     width: 100%;
-    height: 100vh;
     background-image: url(image/start-screen-gradient-background.svg);
 }
 header{
@@ -15,7 +14,6 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 573px;
-    margin-bottom: 60px;
 }
 header .logo{
     width: 184px;
@@ -73,4 +71,173 @@ header nav ul li div{
     height: 3px;
     align-self: stretch;
     background: #F1CDB3;
+}
+.start-screen{
+    width: 100%;
+    height: 728px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 76px 40px;
+}
+.start-screen div{
+    display: flex;
+    width: 460px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+}
+.start-screen div h3{
+    width: 310px;
+    color: #FFF;
+    font-family: Georgia, sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 130%;
+}
+.start-screen div p {
+    width: 100%;
+    color: #CDCDCD;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.start-screen div button{
+    display: flex;
+    padding: 15px 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #F1CDB3;
+    color: #292929;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+}
+.start-screen img{
+    width: 698px;
+    height: 100%;
+}
+.about{
+    display: flex;
+    width: 100%;
+    padding: 80px 40px 100px 40px;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    gap: 120px;
+}
+.about img{
+    width: 300px;
+    height: 408px;
+}
+.about div{
+    width: 430px;
+    height: 380px;
+}
+.about div h3{
+    width: 370px;
+    color: #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.about div p{
+    width: 430px;
+    color: #4C4C4C;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 25px;
+}
+.pets{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 80px 40px 100px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background: #F6F6F6;
+}
+.pets h3{
+    width: 400px;
+    color: #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.pets .slider {
+    display: flex;
+    width: 1200px;
+    height: 435px;
+    padding: 0 105px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+}
+.pets .slider .card{
+    display: flex;
+    width: 270px;
+    height: 435px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 9px;
+    background: #FAFAFA;
+}
+.pets .slider .card img{
+    width: 270px;
+    height: 270px;
+    border-radius: 9px 9px 0 0;
+}
+.pets .slider .card h4{
+    color: #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.pets .slider .card button{
+    display: flex;
+    padding: 15px 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    color: #292929;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+}
+.pets button {
+    display: flex;
+    padding: 15px 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #F1CDB3;
+    color: #292929;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
 }
