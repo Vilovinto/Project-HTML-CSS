@@ -360,3 +360,142 @@ header nav ul li div{
     line-height: 115%;
     letter-spacing: 1.2px;
 }
+.donation{
+    display: flex;
+    width: 100%;
+    padding: 80px 182px 100px 183px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #F6F6F6;
+}
+.donation img{
+    width: 505px;
+    height: 261px;
+}
+.donation div{
+    display: flex;
+    width: 380px;
+    height: 282px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.donation div h3{
+    width: 300px;
+    color: #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.donation div #first{
+    color: #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.9px;
+}
+.donation div span{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 9px;
+    background: #F1CDB3;
+}
+.donation div span p{
+    color: #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+.donation div #second{
+    width: 380px;
+    color: #B2B2B2;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 0 0;
+    gap: 160px;
+}
+footer .contacts{
+    display: flex;
+    width: 280px;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+footer .contacts h3{
+    width: 100%;
+    color: #FFF;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+footer .contacts span{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+footer .contacts span p{
+    color: #F1CDB3;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+footer .locations{
+    display: flex;
+    width: 305px;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+footer .locations h3{
+    width: 100%;
+    color: #FFF;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+footer .locations span{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+footer .locations span p{
+    color: #F1CDB3;
+    width: 260px;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+footer img{
+    width: 300px;
+    height: 310px;
+}
