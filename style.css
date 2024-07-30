@@ -252,7 +252,7 @@ header nav ul li div{
     gap: 60px;
 }
 .help h3{
-    width: 308px;
+    width: 310px;
     color: #545454;
     text-align: center;
     font-family: Georgia, sans-serif;
@@ -262,19 +262,17 @@ header nav ul li div{
     letter-spacing: 2.1px;
 }
 .help .list{
-    width: 1026px;
+    width: 1030px;
     height: 281px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 120px;
-    grid-template-areas:
-    'pet-food transportation toys bowls-and-cups bowls-and-cups shampoos'
-    'vitamins medicines collars-leashes collars-leashes sleeping-area sleeping-area'
-;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 120px;
 }
 .help .list .pet-food{
-    grid-area: pet-food;
+    width: 84px;
+    height: 113px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -282,7 +280,8 @@ header nav ul li div{
     gap: 30px;
 }
 .help .list .transportation{
-    grid-area: transportation;
+    width: 150px;
+    height: 113px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -290,7 +289,8 @@ header nav ul li div{
     gap: 30px;
 }
 .help .list .toys{
-    grid-area: toys;
+    width: 60px;
+    height: 113px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -298,7 +298,8 @@ header nav ul li div{
     gap: 30px;
 }
 .help .list .bowls-and-cups{
-    grid-area: bowls-and-cups;
+    width: 155px;
+    height: 113px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -306,7 +307,8 @@ header nav ul li div{
     gap: 30px;
 }
 .help .list .shampoos{
-    grid-area: shampoos;
+    width: 101px;
+    height: 113px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -314,7 +316,8 @@ header nav ul li div{
     gap: 30px;
 }
 .help .list .vitamins{
-    grid-area: vitamins;
+    width: 89px;
+    height: 113px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -322,7 +325,8 @@ header nav ul li div{
     gap: 30px;
 }
 .help .list .medicines{
-    grid-area: medicines;
+    width: 101px;
+    height: 113px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -330,7 +334,8 @@ header nav ul li div{
     gap: 30px;
 }
 .help .list .collars-leashes{
-    grid-area: collars-leashes;
+    width: 166px;
+    height: 113px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -338,7 +343,8 @@ header nav ul li div{
     gap: 30px;
 }
 .help .list .sleeping-area{
-    grid-area: sleeping-area;
+    width: 143px;
+    height: 113px;
     display: flex;
     flex-direction: column;
     justify-content: center;
