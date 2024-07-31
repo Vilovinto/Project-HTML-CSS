@@ -5,6 +5,8 @@
 }
 body{
     width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     background-image: url(image/start-screen-gradient-background.svg);
 }
 header{
@@ -428,7 +430,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 40px 0 0 0;
+    padding: 56px 0 0 0;
     gap: 160px;
 }
 footer .contacts{
@@ -436,8 +438,7 @@ footer .contacts{
     width: 280px;
     padding-right: 0;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;;
     gap: 40px;
 }
 footer .contacts h3{
@@ -467,8 +468,7 @@ footer .locations{
     width: 305px;
     padding-right: 0;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
     gap: 40px;
 }
 footer .locations h3{
