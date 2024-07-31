@@ -1,0 +1,96 @@
+@media screen and (max-width: 480px) {
+    header{
+        display: inline-flex;
+        padding-right: 73px;
+    }
+    header .logo{
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    header nav{
+        display: none;
+    }
+    .start-screen{
+        display: inline-flex;
+        flex-direction: column;
+        height: 673px;
+        margin-top: 60px;
+        margin-left: 10px;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 105px;
+    }
+    .start-screen div{
+        display: flex;
+        width: 100%;
+        height: 296px;
+        flex-direction: column;
+        align-items: center;
+        gap: 42px;
+    }
+    .start-screen div h3{
+        width: 250px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .start-screen div p{
+        width: 300px;
+        text-align: center;
+    }
+    .start-screen img{
+        width: 260px;
+        height: 271.774px;
+        margin-left: 50px;
+    }
+    .about{
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 42px;
+        padding: 0;
+    }
+    .about div{
+        width: 300px;
+        height: 494px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .about div h3{
+        width: 280px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .about div p{
+        width: 270px;
+        text-align: justify;
+    }
+    .about img{
+        width: 260px;
+        height: 353.6px;
+    }
+    .pets{
+        padding: 42px 10px;
+        gap: 0;
+    }
+    .pets h3{
+        width: 300px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .pets .slider {
+        width: 270px;
+        padding-bottom: 102px;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        margin-top: 42px;
+        margin-left: 15px;
+    }
+    .pets .slider #jennifer{
+        display: none;
+    }
+    .pets .slider #woody{
+        display: none;
+    }
+}
