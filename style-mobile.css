@@ -70,7 +70,8 @@
         height: 353.6px;
     }
     .pets{
-        height: 790px;
+        height: 820px;
+        padding: 42px 10px 42px 10px;
         gap: 42px;
     }
     .pets h3{
@@ -94,6 +95,7 @@
         display: none;
     }
     .help{
+        height: 745px;
         padding: 0 0 0 0;
         gap: 42px;
     }

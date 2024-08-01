@@ -9,6 +9,10 @@ body{
     overflow-x: hidden;
     background-image: url(image/start-screen-gradient-background.svg);
 }
+button:hover{
+    transform: scale(1.2);
+    transition: 50ms;
+}
 header{
     display: flex;
     width: 100%;
@@ -70,9 +74,13 @@ header nav ul li a{
     line-height: 160%;
 }
 header nav ul li div{
+    display: none;
     height: 3px;
     align-self: stretch;
     background: #F1CDB3;
+}
+header nav ul li a:hover+div{
+    display: block;
 }
 .start-screen{
     width: 100%;
@@ -80,7 +88,7 @@ header nav ul li div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 76px 40px;
+    margin: 76px 40px 0 40px;
 }
 .start-screen div{
     display: flex;
@@ -114,6 +122,9 @@ header nav ul li div{
     gap: 10px;
     border-radius: 100px;
     background: #F1CDB3;
+}
+.start-screen div button a{
+    text-decoration: none;
     color: #292929;
     font-family: Georgia, sans-serif;
     font-size: 17px;
@@ -124,6 +135,7 @@ header nav ul li div{
 .start-screen img{
     width: 698px;
     height: 100%;
+
 }
 .about{
     display: flex;
@@ -163,9 +175,10 @@ header nav ul li div{
 .pets{
     display: flex;
     width: 100%;
+    height: 890px;
     flex-direction: column;
     padding: 80px 40px 100px 40px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 60px;
     background: #F6F6F6;
@@ -250,6 +263,7 @@ header nav ul li div{
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 711px;
     padding: 80px 40px 100px 40px;
     justify-content: center;
     align-items: center;
